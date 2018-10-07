@@ -1,0 +1,182 @@
+extends _layout/layout
+
+//- Các giá trị mặc định cho trang web
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+//- Phần khai báo body
+block body
+	section.home-info
+		img(src="./img/logo", alt="")
+		.container
+			.row
+				.col
+					.text
+						h1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cumque, quisquam corrupti ut magni laboriosam nisi est molestiae
+						button.btn.btn-primary(type="button" class="button") Primary
+	section.home-service
+		.container
+			.row
+				.col
+					h1 SERVICE WE PROVICE
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit
+				
+			.row
+				.col-sm-6.col-lg-3
+					img(src="./img/home_icon_1.png", alt="")
+					h3 BRANDING 
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sequi vitae
+				.col-sm-6.col-lg-3
+					img(src="./img/home_icon_2.png", alt="")
+					h3 DESIGN 
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sequi vitae
+				.col-sm-6.col-lg-3
+					img(src="./img/home_icon_3.png", alt="")
+					h3 DEVELOPMENT
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sequi vitae
+				.col-sm-6.col-lg-3
+					img(src="./img/home_icon_4.png", alt="")
+					h3 ROCKET 1 TUAN
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sequi vitae
+
+	section.meet
+		.container
+			.row
+				.col
+					h1 MEET OUR BEAUTIFUL TEAM
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit
+			.row
+				.col-sm-6.col-lg-3
+					img(src="./img/meet_1.png", alt="")
+					h3 ANNE HATEAWAY 
+					h6.ceo CEO/Maketing
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sequi vitae
+					
+					ul.nav
+						li
+							i.fa.fa-facebook-official
+						li
+							i.fa.fa-twitter
+						li
+							i.fa.fa-instagram
+				.col-sm-6.col-lg-3
+					img(src="./img/meet_2.png", alt="")
+					h3 KATE UPTION
+					h6.ceo Creactive Dorector 
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sequi vitae
+					ul.nav
+						li
+							i.fa.fa-facebook-official
+						li
+							i.fa.fa-twitter
+						li
+							i.fa.fa-instagram
+				.col-sm-6.col-lg-3
+					img(src="./img/meet_3.png", alt="")
+					h3 OLIVIA WILDE
+					h6.ceo Lead Designer
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sequi vitae
+					ul.nav
+						li
+							i.fa.fa-facebook-official
+						li
+							i.fa.fa-twitter
+						li
+							i.fa.fa-instagram
+				.col-sm-6.col-lg-3
+					img(src="./img/meet_4.png", alt="")
+					h3 ASHLEY GREENE
+					h6.ceo SEO/Deverloper
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					ul.nav
+						li
+							i.fa.fa-facebook-official
+						li
+							i.fa.fa-twitter
+						li
+							i.fa.fa-instagram
+	section.our
+		.container
+			.row
+				.col
+					h1 OUR PORTFOLIO
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit
+			ul
+				li
+					a(href="#") ALL
+					a(href="#") WEB
+					a(href="#") APPS
+					a(href="#") ICON
+			
+			.row
+				.col-sm-6.col-lg-6
+					img(src="./img/our_1.png", alt="#")
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ad possimus atque magnam, a temporibus blanditiis
+				.col-sm-6.col-lg-6
+					img(src="./img/our_2.png", alt="#")
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ad possimus atque magnam, a temporibus blanditiis
+				.col-sm-6.col-lg-6
+					img(src="./img/our_3.png", alt="#")
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ad possimus atque magnam, a temporibus blanditiis
+				.col-sm-6.col-lg-6
+					img(src="./img/our_4.png", alt="#")
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ad possimus atque magnam, a temporibus blanditiis
+			.row
+				.col
+					button.btn.btn-primary(type="button" class="button") Primary
+				
+	section.what
+		.container
+			.row
+				.col
+					h1 WHAT PEOPLE SAY ABOUT US
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit
+			.row
+				.col-sm-6.col-lg-6.mb-4
+					.row
+						.col-lg-3
+							img.img-fluid(src="./img/meet_1.png", alt="#")
+						.col-lg-9
+							p "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae non, nulla aut doloribus culpa"
+				.col-sm-6.col-lg-6.mb-4
+					.row
+						.col-lg-3
+							img.img-fluid(src="./img/meet_2.png", alt="#")
+						.col-lg-9
+							p "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae non, nulla aut doloribus culpa"
+			.row
+				.col-sm-6.col-lg-6
+					.row
+						.col-lg-3
+							img.img-fluid(src="./img/meet_3.png", alt="#")
+						.col-lg-9
+							p "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae non, nulla aut doloribus culpa"
+					
+				.col-sm-6.col-lg-6
+					.row
+						.col-lg-3
+							img.img-fluid(src="./img/meet_4.png", alt="#")
+						.col-lg-9
+							p "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae non, nulla aut doloribus culpa"
+					
+				
+	section.full
+		.container
+			.row
+				.col
+					h1 FULL STACKVIETNAM
+					p Địa chỉ: 28 Đường số 2 - CITYLAND - Phường 7 - Gò Vấp - HCM	
+			.row
+				.col-sm-6..col-lg-6
+					form
+						input.form-cotrol(type="text" style=" padding: 30px;" placeholder="Your Name*" required="")
+				.col-sm-6.col-lg-6
+					form
+						input.form-cotrol(type="email" style=" padding: 30px;" placeholder="Your Email*" required="")
+			.row
+				.col-lg-12
+					.area
+						<textarea id="message" class="form-control" style="padding-bottom:7rem" rows="5" placeholder="Your Message*" required=""></textarea>
+

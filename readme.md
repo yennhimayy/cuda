@@ -24,10 +24,6 @@ Khi làm nhớ tách nhánh theo cấu trúc LINHVUC/MA-DUAN
 
 > npm i 
 
-và 
-
-> npm audit fix
-
 Cài đặt Components 
 
 > bower update 
